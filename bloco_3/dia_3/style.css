@@ -10,7 +10,7 @@
     width: 150px;
     position: absolute;
     top: 480px;
-    left: 200px;
+    left: 230px;
     z-index: 2;
 
 
@@ -26,7 +26,15 @@
   width: 200px;
   position: absolute;
   left: 450px;
-  top: 200px;
+  top: 180px;
   z-index: 3;
 }
+.word {
+    position: absolute;
+    left: 465px;
+    z-index: 4;
+    top: 210px;
+    font-weight: 900;
+    font-size: 100%;
 
+}
