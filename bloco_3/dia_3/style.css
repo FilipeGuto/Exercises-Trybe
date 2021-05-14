@@ -2,6 +2,8 @@
  width: 500px;
  color: black;
  text-align: center;
- left: auto;
- right: auto;
+ 
+}
+li:hover {
+    background-color: cadetblue;
 }
