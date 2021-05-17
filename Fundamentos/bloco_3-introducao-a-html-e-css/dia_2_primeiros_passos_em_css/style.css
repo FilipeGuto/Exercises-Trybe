@@ -1,0 +1,30 @@
+h1 {
+    color: orange;
+}
+
+body {
+    font-size: 16px;
+}
+ul {
+    background-color: palegoldenrod;
+}
+.PUL {
+    background-color: lightgrey;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    }
+    #yellow {
+    background-color: yellow;
+}
+    #red {
+        background-color: red;
+    }
+    #brown {
+        background-color: brown;
+    }
