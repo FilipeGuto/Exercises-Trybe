@@ -44,16 +44,25 @@ let b = 30;
 let c = 15;
 console.log(a + b + c);
 
-let pecaXadrez = 'diagonal';
-
-
-
-if (pecaXadrez === 'horizontal') {
-  console.log('rainha');
+let nota = 95;
+if (nota >=100 || nota <= 0) {
+  console.log('Error');
 }
-else if (pecaXadrez === 'vertical') {
-  console.log('rei');
+else if(nota >= 90) {
+  console.log('A');
 }
-else if (pecaXadrez === 'diagonal') {
-  console.log('bispo');
+else if (nota >= 80) {
+  console.log('B');
+}
+else if (nota >= 70) {
+  console.log('C');
+}
+else if (nota >= 60) {
+  console.log('D'); 
+}
+else if (nota >= 50) {
+  console.log('E');
+}
+else if (nota < 50) {
+  console.log('F');
 }
