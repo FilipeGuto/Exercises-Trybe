@@ -43,3 +43,17 @@ let a = 25;
 let b = 30;
 let c = 15;
 console.log(a + b + c);
+
+let pecaXadrez = 'diagonal';
+
+
+
+if (pecaXadrez === 'horizontal') {
+  console.log('rainha');
+}
+else if (pecaXadrez === 'vertical') {
+  console.log('rei');
+}
+else if (pecaXadrez === 'diagonal') {
+  console.log('bispo');
+}
