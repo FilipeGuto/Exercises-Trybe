@@ -66,3 +66,11 @@ else if (nota >= 50) {
 else if (nota < 50) {
   console.log('F');
 }
+
+let number = 22;
+  if(number%2 == 0) {
+    console.log('Par');
+  }
+  else {
+    console.log('Impar');
+  }
