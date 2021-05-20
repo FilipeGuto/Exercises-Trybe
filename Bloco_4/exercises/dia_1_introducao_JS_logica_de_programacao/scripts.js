@@ -17,4 +17,18 @@ else {
   console.log(par);
 }
 
+let par = 8;
+let impar = 21;
+let centena = 105;
+
+if (impar > par && impar > centena) {
+  console.log(impar);
+}
+else if (par > impar && par > centena) {
+  console.log(par);
+}
+else if (centena > impar && centena> par) {
+  console.log(centena);
+}
+
 
