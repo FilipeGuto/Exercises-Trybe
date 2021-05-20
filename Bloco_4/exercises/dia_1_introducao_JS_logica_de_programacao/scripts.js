@@ -39,4 +39,7 @@ else {
   console.log('zero');
 }
 
-
+let a = 25;
+let b = 30;
+let c = 15;
+console.log(a + b + c);
