@@ -1,0 +1,64 @@
+
+ol {
+    background-color: yellow;
+    }
+    .par {
+        color: green;
+    }
+    .primo { 
+        text-transform: lowercase;
+    }
+    #pri {
+        text-transform: lowercase;
+    }
+
+    h1, h2, h3 {
+        color: red;
+    }
+    h1 {
+        font-size: 40px;
+        border: 1px solid black
+    }
+    li {
+        font-size: 20px;
+    }
+    li.par {
+      font-weight: 900;
+    }
+    li.primo {
+        font-weight: 900;
+    }
+     li.italico {
+         font-weight: 900;
+     }
+       .linguagens {
+           color: blue;
+       }
+       .java {
+           background-color: pink;
+       }
+       :hover #Stack{
+        color: orange;
+        font-weight: 900;
+        text-decoration: none;
+       }
+       :hover #W3Schools {
+           color: green;
+           font-weight: 900;
+           text-decoration: none;
+       }
+       :hover #MDN {
+           color: black;
+           font-weight: 900;
+           text-decoration: none;
+       }
+       :hover #DevDocs {
+           color: yellow;
+           font-weight: 900;
+           text-decoration: none;
+       }
+       :hover #Trybe {
+           color:green;
+           font-weight: 900;
+           text-decoration: none;
+       }
