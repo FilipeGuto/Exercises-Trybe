@@ -49,4 +49,14 @@ for (let index =0; index <numbers.length; index += 1) {
     menorN = numbers[index];
   }
 }
+console.log(menorN);let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorN = 0;
+for (const index of numbers) {
+  if (index - menorN === index) {
+    menorN = index;
+  }
+  if (index < menorN) {
+    menorN = index;
+  }
+}
 console.log(menorN);
