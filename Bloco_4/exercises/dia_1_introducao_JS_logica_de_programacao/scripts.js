@@ -67,10 +67,25 @@ else if (nota < 50) {
   console.log('F');
 }
 
-let number = 22;
+let number = 13;
   if(number%2 == 0) {
     console.log('Par');
   }
   else {
     console.log('Impar');
+  }
+
+  let piece = 'CaVaLo';
+switch(piece.toLowerCase()) {
+  case 'rainha':
+    console.log('move all');
+    break;
+  case 'rei':
+    console.log('move lado');
+    break;
+    case 'cavalo':
+    console.log('move L');
+    break;
+  default:
+    console.log('not valid');
   }
