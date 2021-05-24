@@ -9,5 +9,5 @@ for (let index = 0; index < quadrado; index += 1) {
     linha = linha + asteristico;
   }
   console.log(linha);
-  }
-  linha = ''
+  linha = '';
+}
