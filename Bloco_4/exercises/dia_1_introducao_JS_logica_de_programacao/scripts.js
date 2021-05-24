@@ -75,7 +75,7 @@ let number = 13;
     console.log('Impar');
   }
 
-  let piece = 'Rei';
+  let piece = 'CaVaLo';
 switch(piece.toLowerCase()) {
   case 'rainha':
     console.log('move all');
