@@ -10,5 +10,5 @@ function palindrome(palavra) {
   return palavra === inversePalavra;
 };
 
-let result = palindrome('ovo');
+let result = palindrome('reter');
 console.log(result);
