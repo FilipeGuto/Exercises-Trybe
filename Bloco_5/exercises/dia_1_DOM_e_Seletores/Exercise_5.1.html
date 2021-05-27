@@ -54,12 +54,27 @@ Crie uma função que corrija o texto da tag <h1>.
 Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 Crie uma função que exiba o conteúdo de todas as tags <p> no console.
     */
-    document.getElementsByTagName('p')[0].innerText = 'Trabalhando na area e bem estabilizado, com um amplo conhecimento!';
+    document.getElementsByTagName('p')[0].innerText = 'Trabalhando na area, bem estabilizado, e com um amplo conhecimento!';
+
+
+    document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+
+
+    document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
+
+
+    document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+
+
+    let texto = document.getElementsByTagName('p');
+    for (let index = 0; index < texto.length; index += 1) {
+      texto[index].innerText = texto[index].innerText.toLocaleUpperCase();
+    }
+  
+    let paragrafo = document.getElementsByTagName('div')[1].innerText
+    console.log(paragrafo);
     
-
-
-
-  </script>
+    </script>
 </body>
 
 </html>
