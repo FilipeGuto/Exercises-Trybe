@@ -63,16 +63,24 @@
       title.innerText = 'Exercício 5.2 - JavaScript DOM'
       pai.appendChild(title);
       
-      //Adicione a tag div com a classe main-content como filho da tag body.
+      //2 Adicione a tag div com a classe main-content como filho da tag body.
       let div = document.createElement('div');
       div.className = ('main-content');
       pai.appendChild(div); 
       
-      //Adicione a tag div com a classe center-content como filho da tag div criada no passo 2.
+      //3 Adicione a tag div com a classe center-content como filho da tag div criada no passo 2.
       let div1 = document.querySelector('div');
       let div2 = document.createElement('div');
       div2.className = ('center-content');
       div1.appendChild(div2);
+      
+      //4 Adicione a tag p como filho do div criado no passo 3 e coloque algum texto.
+      let exe4 = document.querySelector('.center-content');
+      let paragrafo = document.createElement('p');
+      paragrafo.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
+      exe4.appendChild(paragrafo);
+
+
       </script>
   </body>
 </html>
