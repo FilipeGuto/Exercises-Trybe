@@ -92,11 +92,10 @@
       exe5.appendChild(TagRight);
       
       //7 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do div criado no passo 5;
-      let exe7 = document.querySelector('.left-content');
-      let imagem = document.createElement('src');
-      imagem.innerText = 'https://picsum.photos/200';
-      imagem.className = ('small-image');
-      exe7.appendChild(imagem);
+      let imagem = document.createElement('img');
+      imagem.className = 'small-image';
+      document.querySelector('.left-content').appendChild(imagem);
+      imagem.src = 'https://picsum.photos/200';
 
       //8 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista deve ser filha do div criado no passo 6;
       let lista = [
