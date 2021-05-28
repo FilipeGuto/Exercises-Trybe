@@ -116,11 +116,15 @@
       exe8.appendChild(list);
 
       for (let index = 0; index < lista.length; index += 1) {
-        listaUl = document.createElement('li');
-        listaUl.innerText = lista[index];
+        let listas = lista[index];
+
+        let = listaUl = document.createElement('li');
+        listaUl.innerText = listas;
+
+        exe8.appendChild(listaUl);
+
       }
       
-      exe8.appendChild(listaUl);
 
       //9 Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.
       let exe9 = document.querySelector('.main-content');
