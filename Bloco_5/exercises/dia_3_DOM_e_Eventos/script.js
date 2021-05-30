@@ -49,3 +49,14 @@ function days() {
   }
 }
 days();
+
+//2 
+let botao = document.querySelector('.buttons-container');
+let Feriados = document.createElement('button');
+Feriados.innerText = 'FERIADOS';
+Feriados.className = 'btn-holiday';
+botao.appendChild(Feriados);
+
+function buttonHoliday(Feriados){
+  
+}
