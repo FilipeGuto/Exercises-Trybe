@@ -58,20 +58,21 @@ Feriados.className = 'btn-holiday';
 botao.appendChild(Feriados);
 
 //3
-window.onload = function buttonHoliday(Feriados) {
+function buttonHoliday() {
   let button = document.querySelector('.btn-holiday');
 
   button.addEventListener('click', function() {
     let holiday = document.querySelectorAll('.holiday');
     for (index = 0; index < holiday.length; index +=1) {
-      if (holiday[index].style.backgroundColor === 'rgb(238,238,238)') {
-        holiday[index].style.backgroundColor = 'SteelBlue';
+      if (holiday[index].style.backgroundColor === 'rgb(238, 238, 238)') {
+        holiday[index].style.backgroundColor = 'steelblue';
       } else {
-        holiday[index].style.backgroundColor = 'rgb(238,238,238)';
+        holiday[index].style.backgroundColor = 'rgb(238, 238, 238)';
       }
     }
   });
 }
+buttonHoliday();
 
 //4 
 let buttonFriday = document.querySelector('.buttons-container');
@@ -79,3 +80,20 @@ let friday = document.createElement('button');
 friday.innerText = 'SEXTA - FEIRA';
 friday.className = 'btn-friday';
 buttonFriday.appendChild(friday);
+
+//5
+function sextinha() {
+  let button = document.querySelector('.btn-friday');
+
+  button.addEventListener('click', function() {
+    let fri = document.querySelectorAll('.friday');
+    for(i = 0;i < fri.length;i +=1){
+      if (fri[i].innerText === '') {
+        fri[i].innerText = 'Sexxtou';
+      } else {
+        fri[i].innerText = '';
+      }
+    }
+  });
+}
+sextinha();
