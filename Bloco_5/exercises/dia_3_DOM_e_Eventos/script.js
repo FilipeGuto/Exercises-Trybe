@@ -57,6 +57,25 @@ Feriados.innerText = 'FERIADOS';
 Feriados.className = 'btn-holiday';
 botao.appendChild(Feriados);
 
-function buttonHoliday(Feriados){
-  
+//3
+window.onload = function buttonHoliday(Feriados) {
+  let button = document.querySelector('.btn-holiday');
+
+  button.addEventListener('click', function() {
+    let holiday = document.querySelectorAll('.holiday');
+    for (index = 0; index < holiday.length; index +=1) {
+      if (holiday[index].style.backgroundColor === 'rgb(238,238,238)') {
+        holiday[index].style.backgroundColor = 'SteelBlue';
+      } else {
+        holiday[index].style.backgroundColor = 'rgb(238,238,238)';
+      }
+    }
+  });
 }
+
+//4 
+let buttonFriday = document.querySelector('.buttons-container');
+let friday = document.createElement('button');
+friday.innerText = 'SEXTA - FEIRA';
+friday.className = 'btn-friday';
+buttonFriday.appendChild(friday);
