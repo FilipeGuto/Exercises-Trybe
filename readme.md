@@ -39,22 +39,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [✅] 5-1: _JavaScript - DOM e seletores_
 - [✅] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [✅] 5-3: _JavaScript - Eventos_
+- [✅] 5-4: _JavaScript - Web Storage_
+- [✅] 5-5: _[Projeto - Arte com Pixels](https://filipeguto.github.io/Pixel_Art.github.io/)_
+- [✅] 5-6: _[Projeto - Lista de tarefas]()_
 
-##### Bloco 6: HTML & CSS avanÃ§ado
+##### Bloco 6: HTML & CSS avançado
 
 - [ ] 6-1: _HTML & CSS - Forms_
 - [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - PÃ¡gina inicial do Facebook]()_
+- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios
 
