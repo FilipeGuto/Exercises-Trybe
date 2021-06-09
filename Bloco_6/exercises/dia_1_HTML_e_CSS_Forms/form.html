@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <title>Curriculo</title>
 </head>
 <body>
@@ -28,6 +32,8 @@
     <label for="input-endereco">Endereço:
       <input type="text" name="endereco" id="input-endereco" maxlength="200" required>
     </label>
+    <br>
+    <br>
     <label for="input-cidade">Cidade:
       <input type="text" name="cidade" id="input-cidade" maxlength="28" required>
     </label>
@@ -48,10 +54,11 @@
     </label>
     <br>
     <br>
-    <label for="homes"> </label>
-      <input type="radio" value="apartamento" id="homes" required name="home">Apartamento
-      <input type="radio" value="casa" id="home" required name="home">Casa
-      <label for="home"></label>
+    <label for="tipo"></label>Tipo de moradia:
+    <input type="radio" name="tipo" id="Ap" value="ap">Apartamento
+    <input type="radio" name="tipo" id="Casa" value="casa">Casa
+    <br>
+    <br>
   </fieldset>
   <fieldset>
     <p>Resumo Curriculo</p>
