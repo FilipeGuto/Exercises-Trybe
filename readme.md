@@ -42,7 +42,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 5-3: _JavaScript - Eventos_
 - [✅] 5-4: _JavaScript - Web Storage_
 - [✅] 5-5: _[Projeto - Arte com Pixels](https://filipeguto.github.io/Pixel_Art.github.io/)_
-- [✅] 5-6: _[Projeto - Lista de tarefas]()_
+- [✅] 5-6: _[Projeto - Lista de tarefas](https://filipeguto.github.io/Lista_de_Tarefas.github.io/)_
 
 ##### Bloco 6: HTML & CSS avançado
 
