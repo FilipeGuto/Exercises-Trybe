@@ -84,14 +84,14 @@ buttonFriday.appendChild(friday);
 //5
 function sextinha() {
   let button = document.querySelector('.btn-friday');
-
   button.addEventListener('click', function() {
     let fri = document.querySelectorAll('.friday');
     for(i = 0;i < fri.length;i +=1){
-      if (fri[i].innerText === '') {
-        fri[i].innerText = 'Sexxtou';
+      let fridas = fri[i].innerText;
+      if (fridas === fridas) {
+        fridas = 'Sexxtou';
       } else {
-        fri[i].innerText = '';
+        fridas = fridas;
       }
     }
   });
