@@ -17,15 +17,15 @@ body {
 .logo-container {
   display: flex;
   justify-content: center;
-  width: 268px;
-  order: -1;
+  flex-basis: 268px;
+
 }
 
 .menu-container {
   display: flex;
-  width: 500px;
+  flex-basis: 500px;
   flex-grow: 1;
-  align-self: center;
+  order: 1;
 }
 
 .menu-container ul {
@@ -50,6 +50,7 @@ body {
 .movie-container {
   display: flex;
   flex-direction: column;
+  flex-basis: 700px;
 }
 
 .movie-container h2 {
@@ -71,13 +72,16 @@ body {
   height: 150px;
   justify-content: center;
   margin: 10px;
+  flex-basis: 16%;
 }
 
 .aside-container {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 350px;
+  flex-basis: 350px;
+  flex-grow: 1;
+  align-self: center;
 }
 
 .aside-container h3, h4 {
