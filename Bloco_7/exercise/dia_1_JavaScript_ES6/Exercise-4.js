@@ -1,4 +1,4 @@
-let longestWord = ("Antônio foi no banheiro e não sabemos o que aconteceu");
+let longestWord = ("Antônio foi no banheiro e viu um ornitorrinco não sabemos o que aconteceu");
 
 const result = longestWord
   .match(/\w+/g)
