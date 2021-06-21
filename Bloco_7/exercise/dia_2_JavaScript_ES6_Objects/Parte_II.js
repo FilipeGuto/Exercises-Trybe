@@ -20,3 +20,6 @@ const lesson3 = {
 
 const turma = Object.assign(lesson2, lesson1, lesson2);
 console.log(turma);
+
+const list = Object.keys(lesson2);
+console.log(list);
