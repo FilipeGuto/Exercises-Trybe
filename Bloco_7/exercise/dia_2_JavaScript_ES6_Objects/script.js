@@ -43,16 +43,8 @@ const order = {
 
 const modifier = {
   name: 'Luiz Silva',
-  pizza: {
-    muzzarella: {
-      amount: 1,
-      price: 25,
-    },
-    calabresa: {
-      amount: 1,
-      price: 20,
-    }
-  },
+    saborMuzzarella: 'muzzarella',
+    saborCalabresa: 'calabresa',
   payment: {
     total: 50,
   }
@@ -62,7 +54,7 @@ Object.assign(order, modifier);
 
 const orderModifier = (order) => {
   Object.values(order)
-  console.log(`Olá ${order.name}, o total do seu pedido de ${order.ordem.pizza}, ${order.ordem.pizza} e ${order.order.drinks.coke.type} é R$ ${order.payment.total}`);
+  console.log(`Olá ${order.name}, o total do seu pedido de ${order.saborMuzzarella}, ${order.saborCalabresa} e ${order.order.drinks.coke.type} é R$ ${order.payment.total}`);
 }
 
 orderModifier(order);
