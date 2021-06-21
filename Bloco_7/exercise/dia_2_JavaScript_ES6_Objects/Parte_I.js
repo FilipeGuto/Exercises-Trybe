@@ -34,12 +34,12 @@ const order = {
   },
 };
 
-// const customerInfo = (order) => {
-//   Object.values(order)
-//   console.log(`Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name} Telefone: ${order.phoneNumber} R. ${order.address.street} N°: ${order.address.number} AP: ${order.address.apartment}`);
-//   }
+const customerInfo = (order) => {
+  Object.values(order)
+  console.log(`Olá ${order.order.delivery.deliveryPerson}, entrega para:${order.name} Telefone:${order.phoneNumber} R.${order.address.street} N°:${order.address.number} AP:${order.address.apartment}`);
+  }
 
-// customerInfo(order);
+customerInfo(order);
 
 const modifier = {
   name: 'Luiz Silva',
