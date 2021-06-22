@@ -12,10 +12,10 @@ function myRemove(arr, item) {
 
 assert.strictEqual(myRemove([1, 2, 3, 4], 3));
 
-assert.notStrictEqual(myRemove([1, 2, 3, 4], 3));
+// assert.notStrictEqual(myRemove([1, 2, 3, 4], 3));
 
-assert.strictEqual(myRemove(typeof([])), []);
+// assert.strictEqual(myRemove(typeof([])), []);
 
-assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5));
+// assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5));
 
 //////////////////////////////
