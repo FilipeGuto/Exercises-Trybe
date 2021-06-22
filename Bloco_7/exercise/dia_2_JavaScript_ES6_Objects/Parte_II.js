@@ -18,15 +18,18 @@ const lesson3 = {
   turno: 'noite',
 };
 
-const turma = Object.assign(lesson2, lesson1, lesson2);
-console.log(turma);
+// const turma = Object.assign(lesson2, lesson1, lesson2);
+// console.log(turma);
 
-const list = Object.keys(lesson2);
-console.log(list);
+// const list = Object.keys(lesson2);
+// console.log(list);
 
-const size = Object.entries(lesson2).length;
-console.log(size);
+// const size = Object.entries(lesson2).length;
+// console.log(size);
 
-const value = Object.values(lesson2);
-console.log(value);
+// const value = Object.values(lesson2);
+// console.log(value);
+
+const allLessons = Object.assign({}, lesson1, lesson2, lesson3);
+console.log(allLessons);
 
