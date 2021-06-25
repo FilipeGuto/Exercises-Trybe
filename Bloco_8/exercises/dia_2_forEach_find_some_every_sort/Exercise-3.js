@@ -84,5 +84,4 @@ function getNamedBook() {
   return nameBook;
 }
 
-console.log(getNamedBook());
 assert.deepStrictEqual(getNamedBook(), expectedResult);
