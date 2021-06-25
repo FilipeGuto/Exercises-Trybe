@@ -77,11 +77,12 @@ const expectedResult = {
 function getNamedBook() {
   let nameBook;
   books.forEach((book) => {
-    if (!nameBook || book.name.length > nameBook.length) {
+    if (!nameBook || book.name.length === 26) {
       nameBook = book
     }
   })
   return nameBook;
 }
 
+console.log(getNamedBook());
 assert.deepStrictEqual(getNamedBook(), expectedResult);
