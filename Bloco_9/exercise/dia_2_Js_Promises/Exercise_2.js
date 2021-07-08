@@ -7,12 +7,12 @@ const fetchPromise = () => {
     const sum = myArray.map(number => number * number)
       .reduce((sum, number) => sum + number);
 
-    (sum < 8000) ? resolve() : reject();
+    (sum < 8000) ? resolve(sum) : reject(sum);
   });
 
   myPromise
-    .then(() => console.log('Promise resolvida'))
-    .catch(() => console.log('Promise rejeitada'));
+    .then((sum) => console.log(`Promise resolvida ${sum}`))
+    .catch((sum) => console.log(`Promise rejeitada ${sum}`));
 };
 
 fetchPromise();
