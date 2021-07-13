@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <title>Curriculo</title>
+</head>
+<body>
+  <form action="" method="GET">
+  <fieldset>
+    <label for="input-name">Nome:
+      <input type="text" name="name" id="input-name" maxlength="40" required>
+    </label>
+    <br>
+    <br>
+    <label for="input-email">Email:
+      <input type="email" name="email" id="input-email" maxlength="50" required>
+    </label>
+    <br>
+    <br>
+    <label for="input-CPF">CPF:
+      <input type="text" name="CPF" id="input-CPF" maxlength="11" required>
+    </label>
+    <br>
+    <br>
+    <label for="input-endereco">Endereço:
+      <input type="text" name="endereco" id="input-endereco" maxlength="200" required>
+    </label>
+    <br>
+    <br>
+    <label for="input-cidade">Cidade:
+      <input type="text" name="cidade" id="input-cidade" maxlength="28" required>
+    </label>
+    <br>
+    <br>
+    <label for="input-estado">Estado:
+      <select name="estado" id="input-estado" required>
+        <option value="null"></option>
+        <option value="SP">São Paulo</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="ES">Espírito Santo</option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label for="tipo"></label>Tipo de moradia:
+    <input type="radio" name="residencia" id="Ap" value="ap">Apartamento
+    <input type="radio" name="residencia" id="Casa" value="casa">Casa
+    <br>
+    <br>
+  </fieldset>
+  <fieldset>
+    <p>Resumo Curriculo</p>
+    <label for="input-resumo">
+      <textarea name="Resumo" id="input-resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+    </label>
+    <br>
+    <br>
+    <label for="input-cargo">Cargo:
+      <input type="text" maxlength="40" name="cargo" id="input-cargo" required>
+    </label>
+    <br>
+    <br>
+    <label for="description-cargo">Descrição do Cargo: <br>
+      <textarea name="description" id="description-cargo" cols="30" rows="10" required maxlength="500"></textarea>
+    </label>
+    <br>
+    <br>
+    <label for="input-date">Data:</label>
+      <input type="date" name="data" id="input-date" required>
+  </fieldset>
+  <br>
+  <br>
+  <button>Enviar</button>
+  <button type="reset">Resetar Dados</button>
+  <script src="script.js"></script>
+</form>
+</body>
+</html>
