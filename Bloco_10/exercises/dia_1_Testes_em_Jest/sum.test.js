@@ -1,4 +1,3 @@
-const sum = require('./sum');
 const sumTest = require('./sum');
 
 describe('verifica se a soma', () => {
@@ -11,11 +10,11 @@ describe('verifica se a soma', () => {
   })
     test('sum 4 + "5" lança erro', () => {
     expect(() => {
-      sum(4, '5');
+      sumTest(4, '5');
     }).toThrow();
     })
     test('error com mensagem: parameters must be numbers', () => {
     expect(() => {
-      sum(4, '5');
+      sumTest(4, '5');
     }).toThrow(/parameters must be numbers/);
 })
