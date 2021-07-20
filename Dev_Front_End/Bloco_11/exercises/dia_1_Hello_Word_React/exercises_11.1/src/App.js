@@ -6,7 +6,7 @@ const myTasks = ['Acordar', 'Escovar os dentes', 'Fazer Ingles', 'Estudar progra
 
 const Task = (value) => {
   return (
-    <li key = {value} > {value} </li>
+    <li> {value} </li>
     );
   }
 
