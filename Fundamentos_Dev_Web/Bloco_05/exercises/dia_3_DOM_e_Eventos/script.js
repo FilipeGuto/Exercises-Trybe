@@ -87,8 +87,8 @@ function sextinha() {
   button.addEventListener('click', function() {
     let fri = document.querySelectorAll('.friday');
     for(i = 0;i < fri.length;i +=1){
-      let fridas = fri[i].innerText;
-      if (fridas === fridas) {
+    fri[i].innerText;
+      if (fri[i] === ) {
         fridas = 'Sexxtou';
       } else {
         fridas = fridas;
