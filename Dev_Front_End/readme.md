@@ -37,19 +37,19 @@
 - [✅] 16-3: _React com Redux - Prática_
 - [✅] 16-4: _React com Redux - Parte 2_
 - [✅] 16-5: _Testes assíncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Wallet]()_
+- [✅] 16-6: _[Projeto - Trybe Wallet](https://github.com/tryber/sd-013-b-project-trybewallet/pull/23)_
 
 ##### Bloco 17: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [✅] 17-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 18: React & Context API
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [✅] 18-1: _Context API do React_
+- [✅] 18-2: _React Hooks - useState e useContext_
+- [✅] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [✅] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-013-b-project-starwars-planets-search/pull/94)_
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [✅] 19-1: _[Projeto - App de Receitas]()_
