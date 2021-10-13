@@ -41,7 +41,7 @@
 
 ##### Bloco 17: Projeto React
 
-- [✅] 17-1: _[Projeto - Jogo de Trivia]()_
+- [✅] 17-1: _[Projeto - Jogo de Trivia](https://project-trivia-20ugnf9nb-filipeguto.vercel.app/)_
 
 ##### Bloco 18: React & Context API
 
